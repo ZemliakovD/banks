@@ -1,31 +1,94 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
 }
 
-.container{
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
     max-width: 1150px;
     margin: 0 auto;
 }
 
-.header{
+.header {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.fixed-top{
+.fixed-top {
     position: initial;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     display: none;
 }
 
-.main{
+.bg-body-tertiary {
+    background-color: #fff !important;
+}
+
+.main {
     background: linear-gradient(114.74deg, #D3CCE3 5.87%, #E9E4F0 92.85%);
+}
+
+.menu-inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-list {
+    display: flex;
+}
+
+.menu-list-item {
+    margin-right: 40px;
+}
+
+.menu-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.menu-list-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.phone {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 40px;
+}
+
+.phone::before {
+    content: url(../img/before-ico.png);
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 40px;
+    border: none;
+    background: linear-gradient(180deg, #F0EB76 0%, #F5DF68 100%);
+    border-radius: 40px;
+}
+
+.main {
+    background-image: url(../img/back-g.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
