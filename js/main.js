@@ -1,11 +1,5 @@
-$('.banks-slider').slick({
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 3
-  });
-
-  $('.feedback-slider').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  });
+$("#upto").click(function() { // ID откуда кливаем
+    $('html, body').animate({
+    scrollTop: $(".start").offset().top // класс объекта к которому приезжаем
+    }, 1000); // Скорость прокрутки
+   });
