@@ -2,287 +2,306 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Получить кредит в Банке | Помощь в выдаче кредита</title>
-  <meta name="description"
-    content="Помощь в получении кредита в Банке. Быстро, без скрытых комиссий, с минимальным количеством документов." />
-  <meta name="keywords" content="кредиты, займ, рассрочка, овердрафт, кредит в банке" />
-  <link rel="icon" href="img/fav.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/jquery.fancybox.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Получить кредит в Банке | Помощь в выдаче кредита</title>
+    <meta name="description" content="Помощь в получении кредита в Банке. Быстро, без скрытых комиссий, с минимальным количеством документов." />
+    <meta name="keywords" content="кредиты, займ, рассрочка, овердрафт, кредит в банке" />
+    <link rel="icon" href="img/fav.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <section class="start">
-    <div class="head">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">  
-            <div class="head-inner">
-              <div class="header">
-                <div class="logo-inner">
-                  <img src="img/logo.png" alt="Логотип" class="logo">
-                  <p>Финансовая компания</p>
+    <section class="start">
+        <div class="head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="head-inner">
+                            <div class="header">
+                                <div class="logo-inner">
+                                    <img src="img/logo.png" alt="Логотип" class="logo">
+                                    <p>Финансовая компания</p>
+                                </div>
+                                <div class="connect">
+                                    <a href="#" class="connect-phone button">+375 (33) 999-00-99</a>
+                                    <button class="connect-button button" type="button" data-bs-toggle="modal" data-bs-target="#startModal">Консультация</button>
+                                </div>
+                            </div>
+                            <h1>Оформление кредита</h1>
+                        </div>
+                    </div>
                 </div>
-                <div class="connect">
-                  <a href="#" class="connect-phone button">+375 (33) 999-00-99</a>
-                  <button class="connect-button button" type="button">Консультация</button>
+            </div>
+        </div>
+    </section>
+    <!-- Модальное окно -->
+    <div class="modal fade" id="startModal" tabindex="-1" aria-labelledby="startModalLabel" aria-hidden="true">
+        <div class="modal-dialog start-modal-dialog">
+            <div class="modal-content start-modal-content">
+                <div class="modal-header start-modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
                 </div>
-              </div>
-              <h1>Оформление кредита</h1>
+                <div class="modal-body start-modal-body">
+                    <form class="start-form">
+                        <p>Оставьте заявку, чтобы наш специалист провел анализ и сделал для Вас выгодное предложение</p>
+                        <input type="text" class="form-control" placeholder="Имя" aria-label="Имя">
+                        <input type="text" class="form-control" placeholder="Номер телефона" aria-label="Телефон">
+                        <div class="form-check start-form-check">
+                            <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                            <label class="form-check-label" for="autoSizingCheck2">Согласие на обработку персональных данных</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Оствить заявку</button>
+                    </form>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
-  <section class="main">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="main-inner">
-            <div class="main-content">
-              <h2>Быстро. Удобно. Надежно.</h2>
-              <p>Полная автоматизация документооборота и массовых выплат между заказчиками и исполнителями в финансовом секторе, без лишних затрат и нагрузок.</p>
-              <button class="main-button button">Оставить заявку</button>
+    <section class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-inner">
+                        <div class="main-content">
+                            <h2>Быстро. Удобно. Надежно.</h2>
+                            <p>Полная автоматизация документооборота и массовых выплат между заказчиками и исполнителями в финансовом секторе, без лишних затрат и нагрузок.</p>
+                            <button class="main-button button" type="button" data-bs-toggle="modal" data-bs-target="#startModal">Оставить заявку</button>
+                        </div>
+                        <img src="img/main-bg.png" alt="Оформить кредит в банке">
+                    </div>
+                </div>
             </div>
-            <img src="img/main-bg.png" alt="Оформить кредит в банке">
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="work">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h3>Как мы работаем</h3>
-          <div class="work-content">
-            <div class="work-item">
-              <img src="img/icon/work_1.svg" alt="">
-              <div class="work-item-info">
-                <p class="step_one">Максимально быстрое подключение и прохождение комплаенс в нашей системе</p>
-              </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Как мы работаем</h3>
+                    <div class="work-content">
+                        <div class="work-item">
+                            <img src="img/icon/work_1.svg" alt="">
+                            <div class="work-item-info">
+                                <p class="step_one">Максимально быстрое подключение и прохождение комплаенс в нашей системе</p>
+                            </div>
+                        </div>
+                        <div class="work-item">
+                            <img src="img/icon/work_2.svg" alt="">
+                            <div class="work-item-info">
+                                <p class="step_two">Мы открываем для вас специальный расчетный счет для полноценной работы с вашими клиентами, организуем по вашим запросам моментальные выплаты на банковские карты / электронные кошельки — легально и просто</p>
+                            </div>
+                        </div>
+                        <div class="work-item">
+                            <img src="img/icon/work_3.svg" alt="">
+                            <div class="work-item-info">
+                                <p class="step_three">Сервис позволяет вести бухгалтерию в простом виде для вашей компании. Возможность работать через корпоративный личный кабинет, проведение выплат путем загрузки реестров получателей в формате XLS или напрямую по выделенному
+                                    API
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="respons">
+                        <img src="img/response-bg.png" alt="">
+                        <div class="respons-content">
+                            <h3>Мы берем на себя ответственность</h3>
+                            <div class="respons-info">
+                                <ul>
+                                    <li>Обеспечение автоматизации процессов для массовых выплат</li>
+                                    <li>Налоговое администрирование для физ. лиц и самозанятых</li>
+                                    <li>Налоговое администрирование для бизнеса и предпринимателей</li>
+                                    <li>Сопровождение и выпуск банковских карт</li>
+                                    <li>Документооборот для снятия нагрузки платежного агента</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="work-item">
-              <img src="img/icon/work_2.svg" alt="">
-              <div class="work-item-info">
-                <p class="step_two">Мы открываем для вас специальный расчетный счет для полноценной работы с вашими клиентами, организуем по вашим запросам моментальные выплаты на банковские карты / электронные кошельки — легально и просто</p>
-              </div>
-            </div>
-            <div class="work-item">
-              <img src="img/icon/work_3.svg" alt="">
-              <div class="work-item-info">
-                <p class="step_three">Сервис позволяет вести бухгалтерию в простом виде для вашей компании. Возможность работать через корпоративный личный кабинет, проведение выплат путем загрузки реестров получателей в формате XLS или напрямую по выделенному API</p>
-              </div>
-            </div>
-          </div>
-          <div class="respons">
-            <img src="img/response-bg.png" alt="">
-            <div class="respons-content">
-              <h3>Мы берем на себя ответственность</h3>
-              <div class="respons-info">
-                <ul>
-                  <li>Обеспечение автоматизации процессов для массовых выплат</li>
-                  <li>Налоговое администрирование для физ. лиц и самозанятых</li>
-                  <li>Налоговое администрирование для бизнеса и предпринимателей</li>
-                  <li>Сопровождение и выпуск банковских карт</li>
-                  <li>Документооборот для снятия нагрузки платежного агента</li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="tax">
-    <div class="container">
-      <div class="row">
-        <div class="tax-content">
-          <h3>Налоговый агент</h3>
-          <p>Снимаем обязательства перед ФНС</p>
-          <ul>
-            <li>Для физических лиц 13% НДФЛ</li>
-            <li>Для самозанятых 4% / 6% НДС</li>
-            <li>Для юридических лиц 30% УСН по страховым взносам</li>
-          </ul>
-          <span>Ведем прозрачную бухгалтерию для резидентов и не резидентов РФ. Комиссии и налоги учтены.</span>
+    </section>
+    <section class="tax">
+        <div class="container">
+            <div class="row">
+                <div class="tax-content">
+                    <h3>Налоговый агент</h3>
+                    <p>Снимаем обязательства перед ФНС</p>
+                    <ul>
+                        <li>Для физических лиц 13% НДФЛ</li>
+                        <li>Для самозанятых 4% / 6% НДС</li>
+                        <li>Для юридических лиц 30% УСН по страховым взносам</li>
+                    </ul>
+                    <span>Ведем прозрачную бухгалтерию для резидентов и не резидентов РФ. Комиссии и налоги учтены.</span>
+                </div>
+                <img src="img/agernt-bg.png" alt="">
+            </div>
         </div>
-        <img src="img/agernt-bg.png" alt="">
-      </div>
-    </div>
-  </section>
-  <section class="more">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="more-content">
-            <div class="more-item">
-              <img src="img/icon/more_1.png" alt="">
-              <div class="more-item-info">
-                <h3>Прием платежей</h3>
-                <span>Обслуживание клиентов 24/7 — круглый год</span>
-                <p>Подключение интернет эквайринга на входящие платежи для пополнения выделенного счета.</p>
-                <ul>
-                  <li>Получайте деньги от клиентов по всему миру</li>
-                  <li>Используйте автоматическое списание средств для регулярных платежей и подписок</li>
-                  <li>Настройте систему оплаты с сервисом токенезации в один клик</li>
-                  <li>Придумайте свой дизайн платежной формы и встройте ее в сайт или мобильное приложение</li>
-                  <li>В расчетах учтены комиссии со стороны сервиса и возможные дополнительные налоги</li>
-                </ul>
-              </div>
+    </section>
+    <section class="more">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="more-content">
+                        <div class="more-item">
+                            <img src="img/icon/more_1.png" alt="">
+                            <div class="more-item-info">
+                                <h3>Прием платежей</h3>
+                                <span>Обслуживание клиентов 24/7 — круглый год</span>
+                                <p>Подключение интернет эквайринга на входящие платежи для пополнения выделенного счета.</p>
+                                <ul>
+                                    <li>Получайте деньги от клиентов по всему миру</li>
+                                    <li>Используйте автоматическое списание средств для регулярных платежей и подписок</li>
+                                    <li>Настройте систему оплаты с сервисом токенезации в один клик</li>
+                                    <li>Придумайте свой дизайн платежной формы и встройте ее в сайт или мобильное приложение</li>
+                                    <li>В расчетах учтены комиссии со стороны сервиса и возможные дополнительные налоги</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="more-item">
+                            <img src="img/icon/more_2.png" alt="">
+                            <div class="more-item-info mass-online">
+                                <h3>Массовые выплаты онлайн/офлайн</h3>
+                                <ul>
+                                    <li>Отправляйте средства клиентам и партнерам моментально</li>
+                                    <li>Проверяйте банковские карты перед отправкой средств</li>
+                                    <li>Используйте гибкую систему интеграций или делайте выплаты вручную</li>
+                                    <li>Получение наличных средств у наших партнёров по паспорту</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="more-item">
+                            <img src="img/icon/more_3.png" alt="">
+                            <div class="more-item-info">
+                                <h3>Выпуск виртуальных банковских карт</h3>
+                                <ul>
+                                    <li>Срок действия карты 4 года</li>
+                                    <li>Полноценный онлайн банк для клиента</li>
+                                    <li>Возможность пополнения с карт от сторонних банков</li>
+                                    <li>Обмен валют ₽/$/€</li>
+                                    <li>Денежные переводы Р2Р</li>
+                                    <li>Снятие средств в любом банкомате мира</li>
+                                    <li>Наличие Apple Pay / GPay / Samsung Pa</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="more-item">
-              <img src="img/icon/more_2.png" alt="">
-              <div class="more-item-info mass-online">
-                <h3>Массовые выплаты онлайн/офлайн</h3>
-                <ul>
-                  <li>Отправляйте средства клиентам и партнерам моментально</li>
-                  <li>Проверяйте банковские карты перед отправкой средств</li>
-                  <li>Используйте гибкую систему интеграций или делайте выплаты вручную</li>
-                  <li>Получение наличных средств у наших партнёров по паспорту</li>
-                </ul>
-              </div>
-            </div>
-            <div class="more-item">
-              <img src="img/icon/more_3.png" alt="">
-              <div class="more-item-info">
-                <h3>Выпуск виртуальных банковских карт</h3>
-                <ul>
-                  <li>Срок действия карты 4 года</li>
-                  <li>Полноценный онлайн банк для клиента</li>
-                  <li>Возможность пополнения с карт от сторонних банков</li>
-                  <li>Обмен валют ₽/$/€</li>
-                  <li>Денежные переводы Р2Р</li>
-                  <li>Снятие средств в любом банкомате мира</li>
-                  <li>Наличие Apple Pay / GPay / Samsung Pa</li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="clients">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="clients-inner">
-            <img src="img/money.png" alt="">
-            <div class="clients-content">
-              <h3>Комиссия на ваших клиентах</h3>
-              <ul>
-                <li>Комиссия за подключение 0 ₽</li>
-                <li>Холдирование средств 0 ₽</li>
-                <li>Стоимость сервиса 0% для компании</li>
-                <li>Комиссию взимает ViDi в рамках специальной оферты на оказание услуг в вашу пользу</li>
-                <li>Возможность зарабатывать дополнительный доход от комиссионных сборов</li>
-              </ul>
+    </section>
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="clients-inner">
+                        <img src="img/money.png" alt="">
+                        <div class="clients-content">
+                            <h3>Комиссия на ваших клиентах</h3>
+                            <ul>
+                                <li>Комиссия за подключение 0 ₽</li>
+                                <li>Холдирование средств 0 ₽</li>
+                                <li>Стоимость сервиса 0% для компании</li>
+                                <li>Комиссию взимает ViDi в рамках специальной оферты на оказание услуг в вашу пользу</li>
+                                <li>Возможность зарабатывать дополнительный доход от комиссионных сборов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="partners">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="partners-inner">
-            <h3>Наши партнеры</h3>
-            <div class="partners-content">
-              <img src="img/logos/logo_1.png" alt="">
-              <img src="img/logos/logo_2.png" alt="">
-              <img src="img/logos/logo_3.png" alt="">
-              <img src="img/logos/logo_4.png" alt="">
-              <img src="img/logos/logo_5.png" alt="">
-              <img src="img/logos/logo_6.png" alt="">
-              <img src="img/logos/logo_7.png" alt="">
-              <img src="img/logos/logo_8.png" alt="">
+    </section>
+    <section class="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="partners-inner">
+                        <h3>Наши партнеры</h3>
+                        <div class="partners-content">
+                            <img src="img/logos/logo_1.png" alt="">
+                            <img src="img/logos/logo_2.png" alt="">
+                            <img src="img/logos/logo_3.png" alt="">
+                            <img src="img/logos/logo_4.png" alt="">
+                            <img src="img/logos/logo_5.png" alt="">
+                            <img src="img/logos/logo_6.png" alt="">
+                            <img src="img/logos/logo_7.png" alt="">
+                            <img src="img/logos/logo_8.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="consult">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="consult-inner">
-            <h4>Получить <span>консультацию</span></h4>
-            <p>Оставьте заявку и получите более детальную информацию для подключения. Выгодные процентные ставки по обслуживанию для резидентов и нерезидентов РФ.</p>
-            <p>Мы работаем с МФО / Кешбек сервисы / Игровые сервисы / Партнёрские программы / Маркетплейсы</p>
-            <button class="button consult-button">Оставить заявку</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="footer-inner">
-            <div class="footer-top">
-              <h3>Контакты</h3>
-              <p><span>Берём на себя все нагрузки платёжного агента.</span> <br/> Ваш личный помощник в финансовом секторе.</p>
+    </section>
+    <section class="consult">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="consult-inner">
+                        <h4>Получить <span>консультацию</span></h4>
+                        <p>Оставьте заявку и получите более детальную информацию для подключения. Выгодные процентные ставки по обслуживанию для резидентов и нерезидентов РФ.</p>
+                        <p>Мы работаем с МФО / Кешбек сервисы / Игровые сервисы / Партнёрские программы / Маркетплейсы</p>
+                        <button class="button consult-button" type="button" data-bs-toggle="modal" data-bs-target="#startModal">Оставить заявку</button>
+                    </div>
+                </div>
             </div>
-            <div class="footer-middle">
-              <div class="middle-left">
-                <p>ООО «МКК ВИДИ» / «ViDi» LLC</p>
-                <p>Россия, г. Санкт-Петербург</p>
-              </div>
-              <div class="middle-right">
-                <p><span>УНП:</span> 7814761737</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="bottom-inner">
-          <div class="footer-logo">
-            <img src="img/logo.png" alt="" class="logo">
-            <p>Финансовая компания</p>
-          </div>
-          <div class="footer-reset">
-            <p>credit.by</p>
-            <button class="reset-button" id="upto">
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-inner">
+                        <div class="footer-top">
+                            <h3>Контакты</h3>
+                            <p><span>Берём на себя все нагрузки платёжного агента.</span> <br/> Ваш личный помощник в финансовом секторе.</p>
+                        </div>
+                        <div class="footer-middle">
+                            <div class="middle-left">
+                                <p>ООО «МКК ВИДИ» / «ViDi» LLC</p>
+                                <p>Россия, г. Санкт-Петербург</p>
+                            </div>
+                            <div class="middle-right">
+                                <p><span>УНП:</span> 7814761737</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="bottom-inner">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="" class="logo">
+                        <p>Финансовая компания</p>
+                    </div>
+                    <div class="footer-reset">
+                        <p>credit.by</p>
+                        <button class="reset-button" id="upto">
               <i class="fa-solid fa-arrow-up fa-beat" style="color: #6447AF;"></i>
             </button>
-          </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-    crossorigin="anonymous"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/jquery.fancybox.min.js"></script>
-  <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
